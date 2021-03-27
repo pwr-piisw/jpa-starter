@@ -25,7 +25,7 @@ public class Task3 {
 		// given
 		int page = 3;
 		int pageSize = 10;
-		Sort sort = new Sort("time");
+		Sort sort = Sort.by("time");
 
 		// when
 		Page<Event> result = null; //TODO: add repository method call here
