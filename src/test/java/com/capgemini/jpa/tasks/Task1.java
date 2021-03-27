@@ -25,7 +25,7 @@ public class Task1 {
 	@Test
 	public void shouldIncrementVersionCounterOnSave() throws Exception {
 		// given 
-		Server server = serverRepository.findOne(1);
+		Server server = serverRepository.getOne(1);
 		Long currentVersion = server.getVersion();
 		
 		// when
@@ -40,7 +40,7 @@ public class Task1 {
 	@Test
 	public void shouldUpdateLastUpdateDateOnServerAfterUpdate() throws Exception {
 		// given 
-		Server server = serverRepository.findOne(1);
+		Server server = serverRepository.getOne(1);
 		LocalDateTime base = LocalDateTime.now();
 		
 		// when
