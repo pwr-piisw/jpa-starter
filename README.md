@@ -1,2 +1,3 @@
-# jpa-starter
-Repozytorium do zadań z listy nr 4
+# Lista 4
+
+Marcin Drabek -- 242451@student.pwr.edu.pl
